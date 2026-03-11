@@ -1,10 +1,11 @@
-document.write("<h2>Entrada")
+document.write("<h1 style='color : red'>Aula 01 - Exércicio 1</h1>");
 
-var numero = prompt("Digite o numero")
+var numero = prompt("Digite um número qualquer: ");
 
-var quadrado = Number(numero) * Number(numero) * Number(numero);
+document.write("<p>O número digitado foi " + numero + "</p>");
+
+var quadrado = Number(numero) * Number(numero);
+document.write("<p>O quadrado do número digitado é " + quadrado + "</p>");
+
 var cubo = Number(numero) * Number(numero) * Number(numero);
-
-document.write("<p> O numero digitado é " + numero + "</p>")
-document.write("<p> O quadrado do numero é " + quadrado + "</p>")
-document.write("<p> O cubo do numero é " + numero + "</p>")
+document.write("<p>O cubo do núero digitado é " + cubo + "</p>");
