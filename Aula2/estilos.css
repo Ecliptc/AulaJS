@@ -1,0 +1,36 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+h1
+{
+    background-color: red;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo
+{
+    margin :20px auto;
+    border: 1px solid darkred;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rebeccapurple;
+}
+
+.conteudop
+{
+    font-size: 20px;
+    text-align: justify
+}
+
+input[type=text], input[type=Number]
+{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
