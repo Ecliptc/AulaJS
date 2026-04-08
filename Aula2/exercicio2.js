@@ -7,7 +7,7 @@ function calcular()
     celsius = (Number(fahrenheit) - 32) * 5 / 6;
 
 
-    document.getElementById("resultado").innerHTML= "<p>" + fahrenheit + 
-    "<p>O Celsius é " + celsius +
+    document.getElementById("resultado").innerHTML= + fahrenheit + 
+    "<p>O Celsius é " + celsius + "</p>"
   
 }

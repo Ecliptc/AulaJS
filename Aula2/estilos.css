@@ -7,7 +7,7 @@ body{
 h1{
     background-color: #960000;
     color : white;
-    margin : 0;
+    margin : 1px;
     padding: 20px;
     text-align: center;
 }
@@ -15,7 +15,7 @@ h1{
 .conteudo
 {
     margin : 20px auto;
-    border : 1px solid #960000;
+    border : 1px solid #04ff3a73;
     width: 500px;
     padding: 20px;
     box-shadow: 0 10px 10px gray;
